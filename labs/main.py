@@ -1,3 +1,4 @@
-def power_of(base, exponent=2):
-    # TODO: return base raised to the power of exponent
-    return base ** exponent
+def create_greeting(recipient_name, sender_name="A Friend", closing="Best wishes"):
+    # TODO: return the formatted greeting string using recipient_name,
+    # sender_name, and closing
+    return f"Dear {recipient_name}, {closing}! From, {sender_name}."
